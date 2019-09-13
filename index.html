@@ -19,7 +19,7 @@
         </ul>
         <ul>
           <li>
-            <button type="button">Вход</button>
+            <a href="login.html">Вход</a>
           </li>
         </ul>
       </nav>
@@ -83,7 +83,25 @@
       <section>
         <h2>Записаться</h2>
         <p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-        <!-- Здесь будет форма -->
+        <form action="https://echo.htmlacademy.ru" method="POST">
+          <p>
+            <label for="appointment-date">Дата</label>
+            <input type="text" name="date" value="" placeholder="13.09.2019" id="appointment-date">
+          </p>
+          <p>
+            <label for="appointment-time">Время</label>
+            <input type="text" name="time" value="" placeholder="11:27" id="appointment-time">
+          </p>
+          <p>
+            <label for="appointment-item">Ваше имя</label>
+            <input type="text" name="name" value="" placeholder="Борода" id="appointment-item">
+          </p>
+          <p>
+            <label for="appointment-phone">Телефон</label>
+            <input type="tel" name="phone" value="" placeholder="+7 123 456-78-90" id="appointment-phone">
+          </p>
+          <button type="submit">Отправить</button>
+        </form>
       </section>
     </main>
     <footer>
@@ -109,11 +127,29 @@
     <section>
       <h2>Личный кабинет</h2>
       <p>Введите свой логин и пароль.</p>
-      <!-- Здесь будет форма -->
+      <form action="https://echo.htmlacademy.ru" method="POST">
+        <p>
+          <label for="user-login">Логин</label>
+          <input type="text" name="login" placeholder="email@example.com" id="user-login">
+        </p>
+        <p>
+          <label for="user-password">Пароль</label>
+          <input type="password" name="password" placeholder="********" id="user-password">
+        </p>
+        <p>
+          <label for="login-password-info">Запомни меня</label>
+          <input type="checkbox" name="remember" id="login-password-info">
+          <a href="#">Я забыл пароль!</a>
+        </p>
+        <button type="button">Войти</button>
+      </form>
       <button type="button">Закрыть</button>
     </section>
     <section>
       <h2>Как до нас добраться</h2>
+      <p>
+        <img src="img/map.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая конюшенная 19/8, Санкт-Перербург">
+      </p>
       <button type="button">Закрыть</button>
     </section>
   </body>
