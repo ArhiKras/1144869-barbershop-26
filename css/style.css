@@ -1,0 +1,418 @@
+body {
+  /* Блочная модель */
+  margin: 0;
+  padding: 0;
+  /* Типографика */
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  /* Оформление */
+  background-color: #000000;
+  background-image: url("../img/bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.inner-page {
+  /* Типографика */
+  color: #000000;
+  /* Оформление */
+  background-color: #f9f6f3;
+  background-image: url("../img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+a {
+  /* Типографика */
+  text-decoration: none;
+}
+
+.button {
+  /* Типографика */
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  /* Оформление */
+  background-color: #000000;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  /* Оформление */
+  background-color: #663d15;
+}
+
+.main-navigation {
+  /* Типографика */
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  /* Оформление */
+  background-color: #000000;
+}
+
+.site-navigation,
+.user-navigation {
+  /* Типографика */
+  list-style: none;
+}
+
+.site-navigation a,
+.user-navigation a {
+  /* Типографика */
+  color: #ffffff;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  /* Оформление */
+  background-color: #242424;
+}
+
+.features-list {
+  /* Типографика */
+  list-style: none;
+}
+
+.features-item {
+  /* Типографика */
+  text-align: center;
+}
+
+.features-item h3 {
+  /* Типографика */
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.index-columns {
+  /* Типографика */
+  color: #000000;
+  /* Оформление */
+  background-color: #f8f5f2;
+  background-image: url("../img/pattern-light.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.index-columns h2 {
+  /* Типографика */
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.news-list {
+  /* Типографика */
+  list-style: none;
+}
+
+.news-item time {
+  /* Типографика */
+  text-transform: none;
+}
+
+.gallery-content {
+  /* Оформление */
+  background-color: #cccccc;
+  border: 7px solid #ffffff;
+}
+
+.appointment-item input {
+  /* Типографика */
+  font: inherit;
+  /* Оформление */
+  background-color: transparent;
+  border: 2px solid #000000;
+}
+
+.appointment-item input:focus {
+  /* Оформление */
+  border-color: #663d15;
+}
+
+.page-title {
+  /* Типографика */
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.breadcrumbs {
+  /* Типографика */
+  list-style: none;
+}
+
+.breadcrumbs a {
+  /* Типографика */
+  color: #000000;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+  /* Типографика */
+  text-decoration: underline;
+}
+
+.breadcrumbs-current {
+  /* Типографика */
+  color: #aba9a7;
+}
+
+.filter fieldset {
+  /* Оформление */
+  border: none;
+}
+
+.filter legend {
+  /* Типографика */
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.filter ul {
+  /* Типографика */
+  list-style: none;
+  line-height: 18px;
+}
+
+.filter-input:hover + label,
+.filter-input:focus + label {
+  /* Типографика */
+  color: #663d15;
+}
+
+.filter-input:disabled + label {
+  /* Типографика */
+  color: #000000;
+  /* Оформление */
+  opacity: 0.5;
+}
+
+.catalog-list {
+  /* Типографика */
+  list-style: none;
+}
+
+.catalog-item {
+  /* Оформление */
+  background-color: #f8f8f8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.catalog-item:hover {
+  /* Оформление */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.catalog-item a {
+  /* Типографика */
+  color: #000000;
+}
+
+.catalog-item h3 {
+  /* Типографика */
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.catalog-category {
+  /* Типографика */
+  text-transform: none;
+}
+
+.catalog-item-price b {
+  /* Типографика */
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  /* Оформление */
+  background-color: #e5e5e5;
+}
+
+.catalog-item-price .button {
+  /* Типографика */
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.pagination-list {
+  /* Типографика */
+  list-style: none;
+}
+
+.pagination-item a {
+  /* Типографика */
+  color: #ffffff;
+  /* Оформление */
+  background-color: #000000;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.pagination-item a.active {
+  /* Оформление */
+  background-color: #663d15;
+}
+
+.pagination-item-current a {
+  /* Типографика */
+  color: #000000;
+  /* Оформление */
+  background-color: #ffffff;
+}
+
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  /* Типографика */
+  color: #000000;
+  /* Оформление */
+  background-color: #ffffff;
+
+}
+
+.product-photo-preview {
+  /* Типографика */
+  list-style: none;
+}
+
+.product-photo-preview li {
+  /* Оформление */
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.product-photo-full {
+  /* Оформление */
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.product-article {
+  /* Типографика */
+  text-align: right;
+  color: #aeaeae;
+}
+
+.product-price b {
+  /* Типографика */
+  line-height: 20px;
+  text-align: center;
+  /* Оформление */
+  background-color: #e5e5e5;
+}
+
+.product-info h3 {
+  /* Типографика */
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.product-info ul {
+  list-style: none;
+}
+
+.main-footer {
+  /* Типографика */
+  color: #ffffff;
+  /* Оформление */
+  background-color: #212121;
+  background-image: url("../img/pattern-dark.jpg");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+
+.footer-contacts a {
+  /* Типографика */
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-contacts a:hover,
+.footer-contacts a:focus {
+  /* Типографика */
+  text-decoration: none;
+}
+
+.footer-social {
+  /* Типографика */
+  text-align: center;
+}
+
+.footer-social ul {
+  /* Типографика */
+  list-style: none;
+}
+
+.social-button {
+  /* Типографика */
+  color: #ffffff;
+}
+
+.footer-copyright {
+  /* Типографика */
+  text-align: center;
+}
+
+.footer-copyright .button:hover,
+.footer-copyright .button:focus {
+  /* Типографика */
+  color: #000000;
+  /* Оформление */
+  background-color: #ffffff;
+}
+
+.modal {
+  /* Типографика */
+  color: #000000;
+  /* Оформление */
+  background-color: #f8f3f0;
+  background-image: url("../img/pattern-light.jpg");
+}
+
+modal h2 {
+  /* Типографика */
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  /* Типографика */
+  font: inherit;
+  color: #000000;
+  text-transform: uppercase;
+  /* Оформление */
+  background-color: #f9f6f3;
+  border: 2px solid #000000;
+}
+
+.login-form input:focus {
+  /* Оформление */
+  border-color: #663d15;
+}
+
+.login-checkbox:hover,
+.login-checkbox:focus {
+  /* Типографика */
+  color: #663d15;
+}
+
+.restore {
+  /* Типографика */
+  color: #000000;
+  text-decoration: underline;
+}
+
+.restore:hover,
+.restore:focus {
+  /* Типографика */
+  text-decoration: none;
+}
