@@ -1,0 +1,114 @@
+
+.main-header {
+  outline: 2px solid green;
+  background-color: rgba(21, 230, 84, 0.164);
+}
+
+.main-navigation {
+  outline: 2px solid black;
+}
+
+.main-header-logo {
+  outline: 2px solid yellow;
+  background-color: rgba(238, 234, 7, 0.24);
+}
+
+.site-navigation {
+  outline: 2px solid magenta;
+  background-color: rgba(238, 7, 219, 0.24);
+}
+
+.user-navigation {
+  outline: 2px solid magenta;
+  background-color: rgba(238, 7, 219, 0.24);
+}
+
+.main-navigation-wrapper {
+  outline: 2px solid yellow;
+  background-color: rgba(238, 234, 7, 0.24);
+}
+
+.main-navigation-wrapper .container {
+  outline: 2px solid blue;
+  background-color: rgba(17, 0, 255, 0.281);
+}
+
+.container {
+  outline: 2px solid green;
+  background-color: rgba(196, 255, 209, 0.151);
+}
+
+.features-list {
+  outline: 2px solid yellow;
+  background-color: rgba(244, 248, 0, 0.151);
+}
+
+.feature-item {
+  outline: 2px solid blue;
+  background-color: rgba(25, 0, 248, 0.151);
+}
+
+.index-columns {
+  outline: 2px solid crimson;
+  background-color: rgba(248, 37, 0, 0.034);
+}
+
+.news,
+.gallery {
+  outline: 2px solid yellow;
+  background-color: rgba(244, 248, 0, 0.151);
+}
+
+.contacts,
+.appointment {
+  outline: 2px solid yellow;
+  background-color: rgba(244, 248, 0, 0.151);
+}
+
+.page-title {
+  outline: 2px solid crimson;
+  background-color: rgba(248, 37, 0, 0.034);
+}
+
+.breadcrumbs {
+  outline: 2px solid crimson;
+  background-color: rgba(248, 37, 0, 0.034);
+}
+
+.filters {
+  outline: 2px solid crimson;
+  background-color: rgba(248, 37, 0, 0.034);
+}
+
+.catalog {
+  outline: 2px solid crimson;
+  background-color: rgba(248, 37, 0, 0.034);
+}
+
+.catalog-item {
+  outline: 2px solid magenta;
+  background-color: rgba(238, 7, 219, 0.24);
+}
+
+.pagination-list {
+  outline: 2px solid blue;
+  background-color: rgba(25, 0, 248, 0.151);
+}
+
+.main-footer {
+  outline: 2px solid green;
+  background-color: rgba(196, 255, 209, 0.151);
+}
+
+.footer-contacts,
+.footer-social,
+.footer-copyright {
+  outline: 2px solid crimson;
+  background-color: rgba(248, 37, 0, 0.034);
+}
+
+.product-photos,
+.product-info {
+  outline: 2px solid yellow;
+  background-color: rgba(244, 248, 0, 0.151);
+}
